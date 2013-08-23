@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3A69F8617C63DD90099E23A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A69F8517C63DD90099E23A /* Foundation.framework */; };
+		B3A69F8917C63DD90099E23A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A69F8817C63DD90099E23A /* main.m */; };
+		B3A69F8D17C63DD90099E23A /* Timer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3A69F8C17C63DD90099E23A /* Timer.1 */; };
+		B3A69F9517C63E040099E23A /* TimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A69F9417C63E040099E23A /* TimerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3A69F8017C63DD90099E23A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B3A69F8D17C63DD90099E23A /* Timer.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B3A69F8217C63DD90099E23A /* Timer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Timer; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A69F8517C63DD90099E23A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3A69F8817C63DD90099E23A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3A69F8B17C63DD90099E23A /* Timer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timer-Prefix.pch"; sourceTree = "<group>"; };
+		B3A69F8C17C63DD90099E23A /* Timer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Timer.1; sourceTree = "<group>"; };
+		B3A69F9317C63E040099E23A /* TimerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerController.h; sourceTree = "<group>"; };
+		B3A69F9417C63E040099E23A /* TimerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3A69F7F17C63DD90099E23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A69F8617C63DD90099E23A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3A69F7917C63DD90099E23A = {
+			isa = PBXGroup;
+			children = (
+				B3A69F8717C63DD90099E23A /* Timer */,
+				B3A69F8417C63DD90099E23A /* Frameworks */,
+				B3A69F8317C63DD90099E23A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3A69F8317C63DD90099E23A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3A69F8217C63DD90099E23A /* Timer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3A69F8417C63DD90099E23A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3A69F8517C63DD90099E23A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3A69F8717C63DD90099E23A /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				B3A69F8817C63DD90099E23A /* main.m */,
+				B3A69F9317C63E040099E23A /* TimerController.h */,
+				B3A69F9417C63E040099E23A /* TimerController.m */,
+				B3A69F8C17C63DD90099E23A /* Timer.1 */,
+				B3A69F8A17C63DD90099E23A /* Supporting Files */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		B3A69F8A17C63DD90099E23A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3A69F8B17C63DD90099E23A /* Timer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3A69F8117C63DD90099E23A /* Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A69F9017C63DD90099E23A /* Build configuration list for PBXNativeTarget "Timer" */;
+			buildPhases = (
+				B3A69F7E17C63DD90099E23A /* Sources */,
+				B3A69F7F17C63DD90099E23A /* Frameworks */,
+				B3A69F8017C63DD90099E23A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timer;
+			productName = Timer;
+			productReference = B3A69F8217C63DD90099E23A /* Timer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3A69F7A17C63DD90099E23A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Hendy Ou";
+			};
+			buildConfigurationList = B3A69F7D17C63DD90099E23A /* Build configuration list for PBXProject "Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3A69F7917C63DD90099E23A;
+			productRefGroup = B3A69F8317C63DD90099E23A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3A69F8117C63DD90099E23A /* Timer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3A69F7E17C63DD90099E23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A69F8917C63DD90099E23A /* main.m in Sources */,
+				B3A69F9517C63E040099E23A /* TimerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B3A69F8E17C63DD90099E23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B3A69F8F17C63DD90099E23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B3A69F9117C63DD90099E23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timer/Timer-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3A69F9217C63DD90099E23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timer/Timer-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3A69F7D17C63DD90099E23A /* Build configuration list for PBXProject "Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A69F8E17C63DD90099E23A /* Debug */,
+				B3A69F8F17C63DD90099E23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A69F9017C63DD90099E23A /* Build configuration list for PBXNativeTarget "Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A69F9117C63DD90099E23A /* Debug */,
+				B3A69F9217C63DD90099E23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3A69F7A17C63DD90099E23A /* Project object */;
+}

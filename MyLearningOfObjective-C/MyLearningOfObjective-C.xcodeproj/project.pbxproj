@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B36C6DFD1619A835009323A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36C6DFC1619A835009323A8 /* Foundation.framework */; };
+		B36C6E001619A835009323A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B36C6DFF1619A835009323A8 /* main.m */; };
+		B36C6E041619A835009323A8 /* MyLearningOfObjective_C.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B36C6E031619A835009323A8 /* MyLearningOfObjective_C.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B36C6DF61619A835009323A8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B36C6E041619A835009323A8 /* MyLearningOfObjective_C.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B36C6DF81619A835009323A8 /* MyLearningOfObjective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MyLearningOfObjective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36C6DFC1619A835009323A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B36C6DFF1619A835009323A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B36C6E021619A835009323A8 /* MyLearningOfObjective-C-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyLearningOfObjective-C-Prefix.pch"; sourceTree = "<group>"; };
+		B36C6E031619A835009323A8 /* MyLearningOfObjective_C.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MyLearningOfObjective_C.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B36C6DF51619A835009323A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36C6DFD1619A835009323A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B36C6DED1619A835009323A8 = {
+			isa = PBXGroup;
+			children = (
+				B36C6DFE1619A835009323A8 /* MyLearningOfObjective-C */,
+				B36C6DFB1619A835009323A8 /* Frameworks */,
+				B36C6DF91619A835009323A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B36C6DF91619A835009323A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B36C6DF81619A835009323A8 /* MyLearningOfObjective-C */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B36C6DFB1619A835009323A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B36C6DFC1619A835009323A8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B36C6DFE1619A835009323A8 /* MyLearningOfObjective-C */ = {
+			isa = PBXGroup;
+			children = (
+				B36C6DFF1619A835009323A8 /* main.m */,
+				B36C6E031619A835009323A8 /* MyLearningOfObjective_C.1 */,
+				B36C6E011619A835009323A8 /* Supporting Files */,
+			);
+			path = "MyLearningOfObjective-C";
+			sourceTree = "<group>";
+		};
+		B36C6E011619A835009323A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36C6E021619A835009323A8 /* MyLearningOfObjective-C-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B36C6DF71619A835009323A8 /* MyLearningOfObjective-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36C6E071619A835009323A8 /* Build configuration list for PBXNativeTarget "MyLearningOfObjective-C" */;
+			buildPhases = (
+				B36C6DF41619A835009323A8 /* Sources */,
+				B36C6DF51619A835009323A8 /* Frameworks */,
+				B36C6DF61619A835009323A8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyLearningOfObjective-C";
+			productName = "MyLearningOfObjective-C";
+			productReference = B36C6DF81619A835009323A8 /* MyLearningOfObjective-C */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B36C6DEF1619A835009323A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Hendy ";
+			};
+			buildConfigurationList = B36C6DF21619A835009323A8 /* Build configuration list for PBXProject "MyLearningOfObjective-C" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B36C6DED1619A835009323A8;
+			productRefGroup = B36C6DF91619A835009323A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B36C6DF71619A835009323A8 /* MyLearningOfObjective-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36C6DF41619A835009323A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36C6E001619A835009323A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B36C6E051619A835009323A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B36C6E061619A835009323A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B36C6E081619A835009323A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyLearningOfObjective-C/MyLearningOfObjective-C-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B36C6E091619A835009323A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyLearningOfObjective-C/MyLearningOfObjective-C-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B36C6DF21619A835009323A8 /* Build configuration list for PBXProject "MyLearningOfObjective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36C6E051619A835009323A8 /* Debug */,
+				B36C6E061619A835009323A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36C6E071619A835009323A8 /* Build configuration list for PBXNativeTarget "MyLearningOfObjective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36C6E081619A835009323A8 /* Debug */,
+				B36C6E091619A835009323A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B36C6DEF1619A835009323A8 /* Project object */;
+}

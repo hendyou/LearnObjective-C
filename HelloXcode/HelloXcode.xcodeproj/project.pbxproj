@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B38A8842164804CD00133502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38A8841164804CD00133502 /* Foundation.framework */; };
+		B38A8845164804CD00133502 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B38A8844164804CD00133502 /* main.m */; };
+		B38A8849164804CD00133502 /* HelloXcode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B38A8848164804CD00133502 /* HelloXcode.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B38A883B164804CD00133502 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B38A8849164804CD00133502 /* HelloXcode.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B38A883D164804CD00133502 /* HelloXcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloXcode; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38A8841164804CD00133502 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B38A8844164804CD00133502 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B38A8847164804CD00133502 /* HelloXcode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloXcode-Prefix.pch"; sourceTree = "<group>"; };
+		B38A8848164804CD00133502 /* HelloXcode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HelloXcode.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B38A883A164804CD00133502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38A8842164804CD00133502 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B38A8832164804CD00133502 = {
+			isa = PBXGroup;
+			children = (
+				B38A8843164804CD00133502 /* HelloXcode */,
+				B38A8840164804CD00133502 /* Frameworks */,
+				B38A883E164804CD00133502 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B38A883E164804CD00133502 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B38A883D164804CD00133502 /* HelloXcode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B38A8840164804CD00133502 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B38A8841164804CD00133502 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B38A8843164804CD00133502 /* HelloXcode */ = {
+			isa = PBXGroup;
+			children = (
+				B38A8844164804CD00133502 /* main.m */,
+				B38A8848164804CD00133502 /* HelloXcode.1 */,
+				B38A8846164804CD00133502 /* Supporting Files */,
+			);
+			path = HelloXcode;
+			sourceTree = "<group>";
+		};
+		B38A8846164804CD00133502 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B38A8847164804CD00133502 /* HelloXcode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B38A883C164804CD00133502 /* HelloXcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38A884C164804CD00133502 /* Build configuration list for PBXNativeTarget "HelloXcode" */;
+			buildPhases = (
+				B38A8839164804CD00133502 /* Sources */,
+				B38A883A164804CD00133502 /* Frameworks */,
+				B38A883B164804CD00133502 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloXcode;
+			productName = HelloXcode;
+			productReference = B38A883D164804CD00133502 /* HelloXcode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B38A8834164804CD00133502 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Hendy ";
+			};
+			buildConfigurationList = B38A8837164804CD00133502 /* Build configuration list for PBXProject "HelloXcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B38A8832164804CD00133502;
+			productRefGroup = B38A883E164804CD00133502 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B38A883C164804CD00133502 /* HelloXcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B38A8839164804CD00133502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38A8845164804CD00133502 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B38A884A164804CD00133502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B38A884B164804CD00133502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B38A884D164804CD00133502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloXcode/HelloXcode-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B38A884E164804CD00133502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloXcode/HelloXcode-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B38A8837164804CD00133502 /* Build configuration list for PBXProject "HelloXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38A884A164804CD00133502 /* Debug */,
+				B38A884B164804CD00133502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38A884C164804CD00133502 /* Build configuration list for PBXNativeTarget "HelloXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38A884D164804CD00133502 /* Debug */,
+				B38A884E164804CD00133502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B38A8834164804CD00133502 /* Project object */;
+}

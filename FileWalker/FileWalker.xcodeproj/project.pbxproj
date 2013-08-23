@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3E95072165BD53F0034A4A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E95071165BD53F0034A4A9 /* Foundation.framework */; };
+		B3E95075165BD53F0034A4A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E95074165BD53F0034A4A9 /* main.m */; };
+		B3E95079165BD53F0034A4A9 /* FileWalker.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3E95078165BD53F0034A4A9 /* FileWalker.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3E9506B165BD53F0034A4A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B3E95079165BD53F0034A4A9 /* FileWalker.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B3E9506D165BD53F0034A4A9 /* FileWalker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FileWalker; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E95071165BD53F0034A4A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3E95074165BD53F0034A4A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3E95077165BD53F0034A4A9 /* FileWalker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileWalker-Prefix.pch"; sourceTree = "<group>"; };
+		B3E95078165BD53F0034A4A9 /* FileWalker.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FileWalker.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3E9506A165BD53F0034A4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E95072165BD53F0034A4A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3E95062165BD53F0034A4A9 = {
+			isa = PBXGroup;
+			children = (
+				B3E95073165BD53F0034A4A9 /* FileWalker */,
+				B3E95070165BD53F0034A4A9 /* Frameworks */,
+				B3E9506E165BD53F0034A4A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3E9506E165BD53F0034A4A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3E9506D165BD53F0034A4A9 /* FileWalker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3E95070165BD53F0034A4A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3E95071165BD53F0034A4A9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3E95073165BD53F0034A4A9 /* FileWalker */ = {
+			isa = PBXGroup;
+			children = (
+				B3E95074165BD53F0034A4A9 /* main.m */,
+				B3E95078165BD53F0034A4A9 /* FileWalker.1 */,
+				B3E95076165BD53F0034A4A9 /* Supporting Files */,
+			);
+			path = FileWalker;
+			sourceTree = "<group>";
+		};
+		B3E95076165BD53F0034A4A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3E95077165BD53F0034A4A9 /* FileWalker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3E9506C165BD53F0034A4A9 /* FileWalker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3E9507C165BD53F0034A4A9 /* Build configuration list for PBXNativeTarget "FileWalker" */;
+			buildPhases = (
+				B3E95069165BD53F0034A4A9 /* Sources */,
+				B3E9506A165BD53F0034A4A9 /* Frameworks */,
+				B3E9506B165BD53F0034A4A9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileWalker;
+			productName = FileWalker;
+			productReference = B3E9506D165BD53F0034A4A9 /* FileWalker */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3E95064165BD53F0034A4A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Hendy ";
+			};
+			buildConfigurationList = B3E95067165BD53F0034A4A9 /* Build configuration list for PBXProject "FileWalker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3E95062165BD53F0034A4A9;
+			productRefGroup = B3E9506E165BD53F0034A4A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3E9506C165BD53F0034A4A9 /* FileWalker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3E95069165BD53F0034A4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E95075165BD53F0034A4A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B3E9507A165BD53F0034A4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B3E9507B165BD53F0034A4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B3E9507D165BD53F0034A4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileWalker/FileWalker-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3E9507E165BD53F0034A4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileWalker/FileWalker-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3E95067165BD53F0034A4A9 /* Build configuration list for PBXProject "FileWalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E9507A165BD53F0034A4A9 /* Debug */,
+				B3E9507B165BD53F0034A4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3E9507C165BD53F0034A4A9 /* Build configuration list for PBXNativeTarget "FileWalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E9507D165BD53F0034A4A9 /* Debug */,
+				B3E9507E165BD53F0034A4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3E95064165BD53F0034A4A9 /* Project object */;
+}
