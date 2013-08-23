@@ -43,6 +43,7 @@ int main(int argc, const char * argv[])
         [person setValue:array forKey:kDevices];
         NSLog(@"%ld", array.retainCount);        
         
+        //@sum, @avg, @min, @max
         NSNumber *sum = [person valueForKeyPath:@"appleDevices.@sum.price"];
         NSNumber *average = [person valueForKeyPath:@"appleDevices.@avg.price"];
         NSLog(@"Total prices: %@", sum);
