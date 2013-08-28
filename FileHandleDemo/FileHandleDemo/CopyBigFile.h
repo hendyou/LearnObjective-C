@@ -10,5 +10,6 @@
 
 @interface CopyBigFile : NSObject
 - (void) run;
-
+@property (nonatomic, copy) NSNumber *targetSize;
+@property (nonatomic, copy) NSNumber *totalSize;
 @end

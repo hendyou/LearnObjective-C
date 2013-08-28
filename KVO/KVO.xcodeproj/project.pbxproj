@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B360C2B817C8841500F4C905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B360C2B717C8841500F4C905 /* Foundation.framework */; };
+		B360C2BB17C8841500F4C905 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B360C2BA17C8841500F4C905 /* main.m */; };
+		B360C2BF17C8841500F4C905 /* KVO.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B360C2BE17C8841500F4C905 /* KVO.1 */; };
+		B360C2C717C8845D00F4C905 /* CopyBigFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B360C2C617C8845D00F4C905 /* CopyBigFile.m */; };
+		B360C2CA17C89AB400F4C905 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B360C2C917C89AB400F4C905 /* User.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B360C2B217C8841500F4C905 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B360C2BF17C8841500F4C905 /* KVO.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B360C2B417C8841500F4C905 /* KVO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KVO; sourceTree = BUILT_PRODUCTS_DIR; };
+		B360C2B717C8841500F4C905 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B360C2BA17C8841500F4C905 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B360C2BD17C8841500F4C905 /* KVO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KVO-Prefix.pch"; sourceTree = "<group>"; };
+		B360C2BE17C8841500F4C905 /* KVO.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = KVO.1; sourceTree = "<group>"; };
+		B360C2C517C8845D00F4C905 /* CopyBigFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CopyBigFile.h; path = ../../FileHandleDemo/FileHandleDemo/CopyBigFile.h; sourceTree = "<group>"; };
+		B360C2C617C8845D00F4C905 /* CopyBigFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CopyBigFile.m; path = ../../FileHandleDemo/FileHandleDemo/CopyBigFile.m; sourceTree = "<group>"; };
+		B360C2C817C89AB400F4C905 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		B360C2C917C89AB400F4C905 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B360C2B117C8841500F4C905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B360C2B817C8841500F4C905 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B360C2AB17C8841500F4C905 = {
+			isa = PBXGroup;
+			children = (
+				B360C2B917C8841500F4C905 /* KVO */,
+				B360C2B617C8841500F4C905 /* Frameworks */,
+				B360C2B517C8841500F4C905 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B360C2B517C8841500F4C905 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B360C2B417C8841500F4C905 /* KVO */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B360C2B617C8841500F4C905 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B360C2B717C8841500F4C905 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B360C2B917C8841500F4C905 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				B360C2BA17C8841500F4C905 /* main.m */,
+				B360C2C817C89AB400F4C905 /* User.h */,
+				B360C2C917C89AB400F4C905 /* User.m */,
+				B360C2C517C8845D00F4C905 /* CopyBigFile.h */,
+				B360C2C617C8845D00F4C905 /* CopyBigFile.m */,
+				B360C2BE17C8841500F4C905 /* KVO.1 */,
+				B360C2BC17C8841500F4C905 /* Supporting Files */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		B360C2BC17C8841500F4C905 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B360C2BD17C8841500F4C905 /* KVO-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B360C2B317C8841500F4C905 /* KVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B360C2C217C8841500F4C905 /* Build configuration list for PBXNativeTarget "KVO" */;
+			buildPhases = (
+				B360C2B017C8841500F4C905 /* Sources */,
+				B360C2B117C8841500F4C905 /* Frameworks */,
+				B360C2B217C8841500F4C905 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVO;
+			productName = KVO;
+			productReference = B360C2B417C8841500F4C905 /* KVO */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B360C2AC17C8841500F4C905 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Hendy;
+			};
+			buildConfigurationList = B360C2AF17C8841500F4C905 /* Build configuration list for PBXProject "KVO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B360C2AB17C8841500F4C905;
+			productRefGroup = B360C2B517C8841500F4C905 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B360C2B317C8841500F4C905 /* KVO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B360C2B017C8841500F4C905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B360C2BB17C8841500F4C905 /* main.m in Sources */,
+				B360C2C717C8845D00F4C905 /* CopyBigFile.m in Sources */,
+				B360C2CA17C89AB400F4C905 /* User.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B360C2C017C8841500F4C905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B360C2C117C8841500F4C905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B360C2C317C8841500F4C905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KVO/KVO-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B360C2C417C8841500F4C905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KVO/KVO-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B360C2AF17C8841500F4C905 /* Build configuration list for PBXProject "KVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B360C2C017C8841500F4C905 /* Debug */,
+				B360C2C117C8841500F4C905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B360C2C217C8841500F4C905 /* Build configuration list for PBXNativeTarget "KVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B360C2C317C8841500F4C905 /* Debug */,
+				B360C2C417C8841500F4C905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B360C2AC17C8841500F4C905 /* Project object */;
+}
