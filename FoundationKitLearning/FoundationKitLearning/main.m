@@ -88,7 +88,7 @@ void stringTest(void)
     }
     
     if ([fileName hasSuffix: @".pages"]) {
-        NSLog(@"\"draft-chapter.pages\" end with \".mov\"");
+        NSLog(@"\"draft-chapter.pages\" end with \".pages\"");
     }
     
     NSString *strRange = @"ra";
