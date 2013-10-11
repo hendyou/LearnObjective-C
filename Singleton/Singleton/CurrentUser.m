@@ -27,7 +27,7 @@ static CurrentUser *singleton = nil;
 {
     @synchronized(self) {
         if (singleton == nil) {
-            singleton = [super allocWithZone:zone];
+            singleton = [super allocWithZone:zone];//确保使用同一块内存地址
         }
     }
     return singleton;
@@ -54,6 +54,6 @@ static CurrentUser *singleton = nil;
 }
 
 - (NSUInteger)retainCount {
-    return UINT_MAX;
+    return UINT_MAX;//装逼用的，这样打印出来的计数永远为-1
 }
 @end
